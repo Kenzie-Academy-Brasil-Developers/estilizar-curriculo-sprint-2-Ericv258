@@ -10,15 +10,14 @@ body, html {
 }
 
 h1 {
-	font-weight: lighter;
+	font-weight: lighter;	
 }
 
 .subDetails {
 	font-style: italic;
 }
 
-.mainDetails {		
-	line-height: 23px;
+.mainDetails {			
 	border-bottom: solid;
 	border-color: #cf8a05;
 	border-width: 2px;				
@@ -33,6 +32,7 @@ section {
 	border-bottom: solid;
 	border-width: 1px;
 	border-color: #dedede;	
+	padding: 10px;
 }
 
 #section4 {
@@ -98,5 +98,21 @@ section {
 	width: 25%;
 	font-family: Helvetica, sans-serif;	
 	color: #cf8a05;
-	font-style: italic;	
+	font-style: italic;		
 }
+
+.sectionTitle h1{
+	font-size: 1.40em;
+	margin: 20px;
+}
+
+.sectionContent p{
+	margin: 2px;
+}
+
+.sectionContent h2{	
+	margin-bottom: 0;
+}
+
+
+
